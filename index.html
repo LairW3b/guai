@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>G.U.A.I</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="cabezera">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <nav class="navegacion fixed-top">
+          <div class="navegacion__menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#Servicios">Servicios</a>
+            <a href="#Conocenos">Conocenos</a>
+          </div>
+        </nav>
+        <div class="hamburguer">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+      <!-- Carrusel -->
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel">
+            <img
+              src="img/ambiental.jpg"
+              class="d-block w-100 carousel__img"
+              alt="..."
+            />
+            <h4 class="carousel__title">Proyectos Ambientales</h4>
+            <p class="carousel__texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+              mollitia!
+            </p>
+          </div>
+          <div class="carousel-item carousel">
+            <img
+              src="img/construccion.jpg"
+              class="d-block w-100 carousel__img"
+              alt="..."
+            />
+            <h4 class="carousel__title">Proyectos de construcción</h4>
+            <p class="carousel__texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+              mollitia!
+            </p>
+          </div>
+          <div class="carousel-item carousel">
+            <img
+              src="img/legal.jpg"
+              class="d-block w-100 carousel__img"
+              alt="..."
+            />
+            <h4 class="carousel__title">Consultoria Juridica</h4>
+            <p class="carousel__texto">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+              mollitia!
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- fin carrusel -->
+      <!-- Servicios -->
+      <section class="cards">
+        <h2 class="subTitle">Servicios</h2>
+        <div class="cards__contenedor">
+          <div class="cards__card">
+            <!-- <img class="cards__img" src="img/legal.jpg" alt="" /> -->
+            <i class="fas fa-balance-scale"></i>
+            <h4 class="card__title">Consultoría Juridica</h4> 
+            <div class="card__listas">
+              <ul>
+                <li>Divorcios</li>
+                <li>Usucapión</li>
+                <li>Penal</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards__card">
+            <!-- <img class="cards__img" src="img/legal.jpg" alt="" /> -->
+            <i class="fas fa-hammer"></i>
+            <h4 class="card__title">Construcción</h4>
+            <div class="card__listas">
+              <ul>
+                <li>Divorcios</li>
+                <li>Usucapión</li>
+                <li>Penal</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cards__card">
+            <!-- <img class="cards__img" src="img/legal.jpg" alt="" /> -->
+            <i class="fas fa-globe-americas"></i>
+            <h4 class="card__title">Consultoría Ambiental</h4>
+            <div class="card__listas">
+              <ul>
+                <li>Divorcios</li>
+                <li>Usucapión</li>
+                <li>Penal</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Fin servicios -->
+  
+    <!-- Resumen de trabajos -->
+    <section class="resumen">
+        <h2 class="subTitle">Todo lo que necesitas</h2>
+        <div class="cards__contenedor">
+            <div class="resumen__item">
+                <i class="fas fa-tasks"></i>
+                <p>Gestionamos tus tramites</p>
+            </div>
+            <div class="resumen__item">
+                <i class="fas fa-briefcase"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="resumen__item">
+                <i class="fas fa-poll"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h5 class="subTitle">Siguenos</h5>
+        <div class="footer__social">
+            <i class="fab fa-facebook-square"></i> 
+            <i class="fab fa-instagram-square"></i> 
+            <i class="fab fa-twitter-square"></i>       
+        </div>
+        <div class="footer__contacto">
+            <h5 class="subTitle">Contactanos</h5>
+            <i class="far fa-envelope">contacto@guai.com</i>
+            <i class="fab fa-whatsapp-square">2222347589</i>
+        </div>
+    </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b107a8c5ef.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+<!-- 
+Foto de Karolina Grabowska en Pexels
+ -->
+
+ <!-- 
+Foto de fauxels en Pexels
+ -->
+
+ <!-- 
+Foto de energepic.com en Pexels
+ -->

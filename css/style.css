@@ -263,6 +263,7 @@ body {
   align-content: center;
   justify-content: center;
   gap: 2rem;
+  padding: 5rem 0rem;
 }
 
 .resumen__item {
@@ -304,6 +305,13 @@ body {
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem #393639;
   text-align: center;
+}
+
+@media (min-width: 900px) {
+  .cliente__card {
+    width: 50rem;
+  }
+    
 }
 
 .cliente__foto {
@@ -405,7 +413,7 @@ body {
   }
 }
 
-@media (min-width: 975px) {
+@media (min-width: 968px) {
   .contacto-textos {
     display: grid;
     grid-template-columns: 1fr 1fr;

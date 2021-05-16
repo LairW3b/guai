@@ -374,6 +374,9 @@ body {
   font-size: 8rem;
 }
 
+.email {
+  font-size: 4rem;
+}
 .footer__social i:hover,
 .whats:hover,
 .email:hover {

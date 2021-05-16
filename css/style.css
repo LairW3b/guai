@@ -192,6 +192,7 @@ body {
   background-color: var(--fondo);
   border-radius: 0px 0px 2rem 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .cards {

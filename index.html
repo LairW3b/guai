@@ -23,12 +23,15 @@
         <div class="logo">
           <img src="img/logoWeb4.svg" alt="" />
         </div>
-        <nav class="navegacion fixed-top">
-          <div class="navegacion__menu">
-            <a href="#inicio">Inicio</a>
-            <a href="#Servicios">Servicios</a>
-            <a href="#Conocenos">Conócenos</a>
-          </div>
+        <div class="navegacion__menu">
+          <a href="inicio.html">Inicio</a>
+          <a href="#Servicios">Servicios</a>
+          <a href="#Conocenos">Conócenos</a>
+        </div>
+        <nav class="navegacion">
+          <a href="#inicio">Inicio</a>
+          <a href="#Servicios">Servicios</a>
+          <a href="#Conocenos">Conócenos</a>
         </nav>
         <div class="hamburguer">
           <i class="fas fa-bars"></i>
@@ -47,11 +50,13 @@
               class="d-block w-100 carousel__img"
               alt="..."
             />
-            <h4 class="carousel__title">Proyectos Ambientales</h4>
-            <p class="carousel__texto">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-              mollitia!
-            </p>
+            <div class="carousel__textos">
+              <h4 class="carousel__title">Proyectos Ambientales</h4>
+              <p class="carousel__texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+                mollitia!
+              </p>
+            </div>
           </div>
           <div class="carousel-item carousel">
             <img
@@ -59,11 +64,13 @@
               class="d-block w-100 carousel__img"
               alt="..."
             />
-            <h4 class="carousel__title">Proyectos de construcción</h4>
-            <p class="carousel__texto">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-              mollitia!
-            </p>
+            <div class="carousel__textos">
+              <h4 class="carousel__title">Proyectos de construcción</h4>
+              <p class="carousel__texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+                mollitia!
+              </p>
+            </div>
           </div>
           <div class="carousel-item carousel">
             <img
@@ -71,11 +78,13 @@
               class="d-block w-100 carousel__img"
               alt="..."
             />
-            <h4 class="carousel__title">Consultoria Juridica</h4>
-            <p class="carousel__texto">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-              mollitia!
-            </p>
+            <div class="carousel__textos">
+              <h4 class="carousel__title">Consultoria Juridica</h4>
+              <p class="carousel__texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
+                mollitia!
+              </p>
+            </div>
           </div>
         </div>
         <button
@@ -216,20 +225,26 @@
 
     <footer class="footer">
       <div class="footer__contacto">
-        <h5 class="footer__title">Siguenos</h5>
-        <div class="footer__social">
-          <a href=""><i class="fab fa-facebook-square"></i></a>
-          <a href=""><i class="fab fa-instagram-square"></i></a>
-          <a href=""><i class="fab fa-twitter-square"></i></a>
-        </div>
-      </div>
-      <div class="footer__contacto">
         <h5 class="footer__title">Contacto</h5>
         <div class="footer__mnsj">
-          <i class="far fa-envelope"></i> 
-          <p>contacto@guai.com</p>
-          <i class="fab fa-whatsapp-square"></i> 
-          <p>2222347589</p>
+          <div class="contacto-textos">
+            <div class="whats">
+              <i class="fab fa-whatsapp-square"></i>
+              <p>2222347589</p>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <p>contacto@guai.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__contacto">
+          <h5 class="footer__title">Siguenos</h5>
+          <div class="footer__social">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+          </div>
         </div>
       </div>
     </footer>

@@ -253,6 +253,13 @@ body {
   text-align: center;
 }
 
+.resumen--servicios {
+  background-image: url(../img/savvas.jpg);
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+}
+
 .sub-title__resumen {
   max-width: 120rem;
   margin: auto;
@@ -422,7 +429,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-    
 }
 /* .navegacion {
     para pantallas grandes
@@ -435,3 +441,56 @@ body {
     font-size: 2rem;
     color: var(--grisOscuro);
 } */
+
+
+/* Acerca de */
+
+.acerca-de {
+  max-width: 120rem;
+  margin: auto;
+}
+.acerca-de__article {
+  display: grid;
+  row-gap: 1rem;
+  justify-items:  center;
+  color: var(--grisOscuro);
+  text-align: center;
+  padding: 1rem;
+  border-bottom: .5rem solid #021625;
+}
+
+.acerca-de__article:last-of-type {
+  border: none;
+} 
+.acerca-de__img {
+  width: 60%;
+}
+
+.acerca-de__title {
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+.acerca-de__ul {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.acerca-de__ul>li {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 568px) {
+    .acerca-de__img {
+      width: 30%;
+    }
+}
+
+@media (min-width: 768px) {
+  /* .acerca-de__img {
+    width: 30%;
+  } */
+    
+}
+

@@ -29,6 +29,10 @@ body{
 .resumen__item>a:hover {
     color: var(--dorado);
 }
+
+.resumen__item--p {
+    text-decoration: none;
+}
 .servicios {
     display: grid;
     /* grid-template-rows: 1fr 2fr 1fr 1fr; */

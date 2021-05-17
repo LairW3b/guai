@@ -23,6 +23,7 @@ body{
 
 .resumen__item>a  {
     color: #fff;
+    text-shadow: .2rem .2rem 1rem #d7ac72;
 }
 
 .resumen__item>a:hover {

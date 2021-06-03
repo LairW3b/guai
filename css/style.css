@@ -357,6 +357,9 @@ body {
 /* .footer__contacto {
   
 } */
+.footer {
+  font-family: var(--funete);
+}
 
 .footer__title {
   width: 18rem;
@@ -411,6 +414,10 @@ body {
   margin: 0;
 }
 
+.contacto-textos a {
+  text-decoration: none;
+  color: var(--grisClaro);
+}
 
 @media (min-width: 500px) {
   .footer__social i{

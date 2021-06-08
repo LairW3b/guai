@@ -19,7 +19,7 @@ hamburger.addEventListener('click', function(){
 
 face.addEventListener('click', function() {
     if(so === 'android') {
-       face.href ='fb://page/GUAI-100527392201822';
+       face.href ='fb://page/100068849537096';
     } if(so === 'iphone'){
         face.href = 'fb://page/?id=GUAI-100527392201822';
     } else {

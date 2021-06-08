@@ -1,4 +1,6 @@
 const hamburger = document.querySelector('.hamburguer');
+const face = document.querySelector('#face');
+const so = window.navigator.appVersion.toLowerCase();
 let enlaces = document.querySelectorAll('.navegacion__menu')[0];
 let bandera = true;
 
@@ -15,4 +17,17 @@ hamburger.addEventListener('click', function(){
     }
 })
 
+face.addEventListener('click', function() {
+    if(so === 'android') {
+       face.href ='fb://page/GUAI-100527392201822';
+    } if(so === 'iphone'){
+        face.href = 'fb://page/?id=414453055238471';
+    } else {
+        face.href = 'https://www.facebook.com/GUAI-100527392201822';
+    }
+})
 
+
+
+
+console.log(so);

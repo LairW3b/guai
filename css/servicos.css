@@ -57,12 +57,12 @@ body{
 
 .servicios__texto {
     font-size: 2rem;
-    padding: 1rem;
+   /*  padding: 1rem; */
 }
 
 .resumen_lista li{
     font-size: 2rem;
-    margin:  2rem;
+    margin:  1rem;
 }
 
 .btn__contacto {

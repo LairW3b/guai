@@ -453,40 +453,59 @@ body {
 
 /* Acerca de */
 
+.contenedor_acercade {
+  background: #021625;
+  padding-bottom:  2rem;
+}
 .acerca-de {
   max-width: 120rem;
   margin: auto;
-  background-image: url(../img/edificios.png);
-  background-position: center center;
+  /* background-image: url(../img/edificio.png); */
+  /* background-position: center center;
   background-attachment: fixed;
   background-size: 100% 130%;
-  background-position: 50% -17%;
+  background-position: 50% -17%; */
 }
 .acerca-de__article {
   display: grid;
   row-gap: 1rem;
   justify-items:  center;
-  color: var(--grisOscuro);
+  color: var(--dorado);
   text-align: center;
   padding: 1rem;
-  border-bottom: .5rem solid #021625;
-  background-color: rgba(255, 255, 255, 0.514);
+  border-bottom: .5rem solid  #d7ac72;
+  /* background-color: rgba(255, 255, 255, 0.514); */
 }
 
-.acerca-de__article:last-of-type {
+/* .acerca-de__article:last-of-type {
   border: none;
-} 
+}  */
 .acerca-de__img {
   width: 60%;
+  box-shadow: 1rem  1rem 1rem #000;
 }
 
+/* .acerca-de__img:hover {
+  width: 400px;
+} */
+
+.detalles {
+  text-shadow: .5rem .5rem .3rem #000;
+  font-size: 4rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  /* border: .7rem solid #01121f; */
+  /* box-shadow: .7rem .5rem .5rem  #01121f; */
+  padding: 2rem;
+}
 .acerca-de__title {
   font-size: 4rem;
   padding-top: 2rem;
 }
 
 .acerca-de__article h2 {
-  color: #021625;
+  /* color: #021625; */
+  color: #d7ac72;
   /* text-shadow: .5rem .5rem .5rem #021625; */
 }
 

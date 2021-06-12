@@ -21,7 +21,7 @@ body{
     background-color: var(--fondo);
 }
 
-.resumen__item>a  {
+.resumen__item a  {
     color: #fff;
     text-shadow: .2rem .2rem 1rem #d7ac72;
 }
@@ -32,6 +32,11 @@ body{
 
 .resumen__item--p {
     text-decoration: none;
+    
+}
+
+.resumen__item--p  p{
+    text-shadow: .2rem .2rem 1rem #d7ac72;
 }
 .servicios {
     display: grid;

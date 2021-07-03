@@ -365,6 +365,36 @@ body {
   color: #d7ac72;
   font-weight: bold;
 }
+
+/* Flotante */
+.flotante{
+  display: none;
+   font-size: 5rem;
+   position: fixed; 
+    right: 2.5rem;
+    bottom: 13rem;    
+    text-decoration: none;
+}
+.flotante a {
+  color: var(--dorado);
+   text-shadow: .2rem .2rem .2rem var(--fondo);
+}
+.flotante a:hover {
+  color: #d7ac72;
+}
+@media (min-width: 430px) {
+    .flotante {
+      display: block;
+      bottom: 15rem;
+    }
+}
+@media (min-width: 1024px) {
+  .flotante {
+    font-size: 7rem;
+    right: 5rem;
+  }
+    
+}
 /* FOOTER */
 .footer {
   background-color: var(--fondo);
